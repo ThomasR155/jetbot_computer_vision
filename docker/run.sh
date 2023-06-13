@@ -172,6 +172,9 @@ MOUNTS="\
 --device /dev/bus/usb \
 --volume /etc/timezone:/etc/timezone:ro \
 --volume /etc/localtime:/etc/localtime:ro \
+--volume /dev:/dev \
+--volume /home/jetbot/jetbot_ros/data:/workspace/src/jetbot_ros/data \
+
 $DEV_VOLUME \
 $DATA_VOLUME \
 $USER_VOLUME \
@@ -189,7 +192,8 @@ chmod 777 $XAUTH
 
 # run the container
 sudo docker run --runtime nvidia -it --rm --name jetbot_ros \
-    --network host \
+    --net=host \
+    --pid=host \
     --privileged \
     -e DISPLAY=$DISPLAY \
     -v /tmp/.X11-unix/:/tmp/.X11-unix \

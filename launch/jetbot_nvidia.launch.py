@@ -13,7 +13,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     
-    motor_controller = Node(package='jetbot_ros', node_executable='motors_nvidia',
+    motor_controller = Node(package='jetbot_ros', node_executable='motors_waveshare',
                             output='screen', emulate_tty=True)              
      
     oled_controller = Node(package='jetbot_ros', node_executable='oled_ssd1306',
