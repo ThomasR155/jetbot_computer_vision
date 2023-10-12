@@ -146,3 +146,9 @@ ros2 service call /slam_toolbox/save_map slam_toolbox/srv/SaveMap "name: data:'m
 
 ## Acknowledgements
 We would like to express our gratitude to Prof. Dr. Patrick Glauner for giving very interesting lectures and providing the hardware for this project.
+
+
+Project team: Thomas Riedl, Leon Madest, Darwin Sucuzhañay and Ankit Singh Rawat
+
+
+[LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7087667723597406208/)
