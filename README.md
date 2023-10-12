@@ -9,6 +9,8 @@ Use the nvidia jetbot kit to construct a floor plan autonomously.
   <img src="docs/images/jetbot_sideview.jpg" width="400" />
   <img src="docs/images/jetbot_sideview_1.jpg" width="400" /> 
 </p>
+
+
 ## 1. Initial Setup
 Startup the jetbot and do the following basic setup:
 ### Start the JetBot ROS2 Foxy container
