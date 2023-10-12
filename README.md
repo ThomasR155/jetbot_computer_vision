@@ -120,7 +120,7 @@ create the floor plan by letting the robot navigate through the room autonomousl
 [Full Demo Video on Youtube](https://www.youtube.com/watch?v=yZKvW5d6rJU)
 
 
-### Save map finished map
+### Save finished map
 
 ``` bash
 ros2 service call /slam_toolbox/save_map slam_toolbox/srv/SaveMap "name: data:'map.pgm'"
